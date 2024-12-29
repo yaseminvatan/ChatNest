@@ -10,5 +10,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 db.once('open', () => {
-  app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+  app.listen(PORT, () => console.log(`🌟 ChatNest is running on http://localhost:${PORT}`));
 });
